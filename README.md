@@ -1,10 +1,11 @@
-# Does Anaphora Resolution Improve LLM Fine-Tuning for Meeting Summarization?
-This project explores whether applying **anaphora resolution** as a preprocessing step improves the performance of **Large Language Model (LLM)** fine-tuning for meeting summarization tasks. The project leverages a simplified implementation of Mitkov’s Anaphora Resolution System (MARS) and tests its impact on the **T5-base** model using the **SAMSum** dialogue dataset.
+# Does Anaphora Resolution Improve LLM Fine-Tuning for Meeting Summarisation?
+This project explores whether applying **anaphora resolution** as a preprocessing step improves the performance of LLM fine-tuning for meeting summarisation tasks. The project leverages a simplified implementation of Mitkov’s Anaphora Resolution System (MARS) and tests its impact on the **T5-base** model using the **SAMSum** dialogue dataset.
 
-The study shows that resolving ambiguous pronouns before fine-tuning leads to significantly improved summarization results across multiple ROUGE metrics.
+The study shows that resolving ambiguous pronouns before fine-tuning leads to significantly improved summarisation results across multiple ROUGE metrics.
 
 ## Dataset
 The dataset used in this project is:
+
 [SAMSum Corpus — Gliwa, B., Mochol, I., Biesek, M., & Wawer, A. (2019). *SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization*. arXiv:1911.12237.](https://arxiv.org/abs/1911.12237)<br><br>
 
 ## Repository Structure
@@ -20,9 +21,7 @@ The repository contains the following files and directories:
 
 - **preprocessing.ipynb**: Jupyter Notebook (for Google Colab) that loads and preprocesses the SAMSum dataset with anaphora resolution.
 
-- **fine tune T5.ipynb**: Jupyter Notebook (for Google Colab) for fine-tuning the T5-base model with and without anaphora resolution.
-
-- **main.ipynb**: Main orchestration or result analysis notebook.
+- **main.ipynb**: Jupyter Notebook (for Google Colab) for fine-tuning the T5-base model with and without anaphora resolution.
 
 - **README.md**: This README file.
 
